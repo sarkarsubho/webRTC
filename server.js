@@ -5,7 +5,7 @@ const server = http.createServer(app);
 const socket = require("socket.io");
 const io = socket(server);
 
-const port =  process.env.PORT;
+const port =  5000;
 // used in older vertions
 
 // const io=require("socket.io")(server,{
@@ -32,4 +32,4 @@ io.on("connection",(socket)=>{
     })
 })
 
-server.listen(port, () => console.log("server is listning on port 5000"));
+server.listen(5000, () => console.log("server is listning on port 5000"));
