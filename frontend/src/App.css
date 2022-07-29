@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  
 }
-
+.appbg{
+  background: linear-gradient(white, #9198e5);
+  height: 100vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
