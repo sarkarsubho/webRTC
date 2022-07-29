@@ -7,6 +7,8 @@ import { Box, Button, Flex, Heading, Text, Textarea } from "@chakra-ui/react";
 import { MdOutlineContentCopy } from "react-icons/md";
 import styles from "./navbar.module.css";
 import { MdCall, MdCallEnd } from "react-icons/md";
+
+
 const socket = io.connect("http://localhost:5000");
 
 export const Vedio = () => {
@@ -185,7 +187,7 @@ export const Vedio = () => {
         <div>
           {idToCall && (
             <Text>
-              Calling..<br></br> {name}
+              Calling..<br></br> {idToCall}
             </Text>
           )}
           {callAccepted && !callEnded ? (
