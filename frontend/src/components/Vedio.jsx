@@ -179,7 +179,7 @@ export const Vedio = () => {
           <Textarea
             value={idToCall}
             onChange={(e) => setIdToCall(e.target.value)}
-            placeholder="enter your name"
+            placeholder="enter your ID"
             size="sm"
           />
         </Box>
